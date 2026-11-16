@@ -9,5 +9,5 @@ int main(){
 
     if (anno/400||anno/4)
     {
-        printf("L anno e bisestile quindi febbraio ha 29 giorni");
+         printf("L anno e bisestile quindi febbraio ha 29 giorni");
     }
