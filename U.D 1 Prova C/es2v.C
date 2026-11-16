@@ -8,15 +8,15 @@ int main(){
     char junk;
 
     printf("Inserisci base minore:");
-    scanf("%d", bm);
+    scanf("%d", &bm);
     junk=getchar();
 
     printf("Inserisci Base maggiore:");
-    scanf("%d", bM);
+    scanf("%d", &bM);
     junk=getchar();
 
     printf("Inserisci Altezza:");
-    scanf("%d", h);
+    scanf("%d", &h);
     junk=getchar();
 
     if (h==0)
@@ -37,4 +37,5 @@ int main(){
         area=(bm+bM)*h/2;
         printf("L'area vale:%d", area);
     }
+    return 0;
 }
