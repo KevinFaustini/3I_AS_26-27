@@ -25,19 +25,6 @@ int main(){
     scanf("%f", &v4);
     junk=getchar();
 
-    if (v1>v2)
-    {
-    
-        ("Il valore maggiore e:%f, v1");
-    }
-    
-    
-    
-    
-    
-    
-    
-    
     avg=(v1+v2+v3+v4)/4;
     printf("La media è: %f", avg);
 
@@ -53,7 +40,5 @@ int main(){
          printf("La somma maggiore tra il primo e il secondo valore e tra il terzo e il quarto valore e:%f", somma2);
     }
 
-
-
-
+    return 0;
 }
