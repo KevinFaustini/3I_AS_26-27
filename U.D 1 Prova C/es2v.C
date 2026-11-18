@@ -24,18 +24,18 @@ int main(){
         if (bm==bM)
         {
             area=bm*bM;
-            printf("L'area vale:%d", area);
+            printf("L'area vale:%d\n", area);
         }
         else
         {
             perim=(bm+bM)*2;
-            printf("Il perimetro vale:%d", perim);
+            printf("Il perimetro vale:%d\n", perim);
         }
     }
     else
     {
         area=(bm+bM)*h/2;
-        printf("L'area vale:%d", area);
+        printf("L'area vale:%d\n", area);
     }
     return 0;
 }

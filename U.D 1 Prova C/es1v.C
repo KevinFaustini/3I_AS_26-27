@@ -41,7 +41,7 @@ int main(){
     }
     
     avg=(v1+v2+v3+v4)/4;
-    printf("La media è: %2.f\n", avg);
+    printf("La media è: %.2f\n", avg);
 
     somma1=v1+v2;
     somma2=v3+v4;
