@@ -34,11 +34,11 @@ int main(){
 
     if(somma1>somma2)
     {
-        printf("La somma maggiore tra il primo e il secondo valore e tra il terzo e il quarto valore e:%2.f", somma1);
+        printf("La somma maggiore tra il primo e il secondo valore o tra il terzo e il quarto valore e la prima");
     }
     else
     {
-         printf("La somma maggiore tra il primo e il secondo valore e tra il terzo e il quarto valore e:%2.f", somma2);
+         printf("La somma maggiore tra il primo e il secondo valore o tra il terzo e il quarto valore e la seconda");
     }
 
     return 0;
